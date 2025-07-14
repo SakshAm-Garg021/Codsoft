@@ -1,7 +1,7 @@
 import random
 def user_choice():
     while True:
-        Player_choice=input("\nChoose any one of them (rock, paper or scissors): ").lower()
+        Player_choice=input("Choose any one of them (rock, paper or scissors): ").lower()
         if Player_choice in ["rock","paper","scissors"]:
             return Player_choice
         else :
@@ -22,7 +22,7 @@ computer_score=0
 Round=1
 print("Welcome in Game World!")
 while True:
-    print("Round",Round)
+    print("\nRound",Round)
     Player_choices=user_choice()
     computer_choices=Computer_choice()
     winner=game(Player_choices,computer_choices)
