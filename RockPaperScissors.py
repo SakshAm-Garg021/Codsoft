@@ -39,7 +39,7 @@ while True:
     while True:
         player_again=input("Do you want to play again(YES/NO): ").lower()
         if player_again=="no":
-            print("Good Bye!")
+            print("Thanks for Playing!")
             break
         elif player_again=="yes":
             Round+=1
